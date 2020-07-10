@@ -1,0 +1,88 @@
+// Gunmetal
+$bgd1: #2a3744;
+// Davy's Grey
+$bgd2: #53585f;
+// Red-Violet
+$bgd3: #912f40;
+// Wine
+$bgd4: #702632;
+// Lavender
+$txt1: #dde0ff;
+// Red-Violet
+$txt2: #912f40;
+// Wine
+$txt3: #702632;
+// Roman Silver
+$txt4: #888a91;
+
+// Red-Violet
+$filter_bgd3: invert(22%) sepia(76%) saturate(914%) hue-rotate(310deg) brightness(94%) contrast(94%);
+// Wine
+$filter_bgd4: invert(17%) sepia(17%) saturate(4667%) hue-rotate(316deg) brightness(96%) contrast(91%);
+
+body {
+    background-color: $bgd1;
+    header {
+        nav {
+            background-color: $bgd2;
+            .navbar-brand {
+                color: $txt1;
+                pointer-events: none;
+                cursor: default;
+                #logo {
+                    filter: $filter_bgd3;
+                }
+            }
+            .nav-link {
+                color: $txt1;
+            }
+            .nav-link:hover {
+                color: $txt4;
+            }
+            .navbar-toggler-icon {
+                height: 5vh;
+                width: 5vh;
+            }
+        }
+    }
+    main {
+        h1 {
+            color: $txt2;
+        }
+        p {
+            color: $txt1;
+        }
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        hr {
+            border-color: $bgd2;
+        }
+        #bottombutton {
+            filter: $filter_bgd3;
+            position: fixed;
+            bottom: 1vh;
+            right: 1vh;
+        }
+        #topbutton {
+            filter: $filter_bgd3;
+            position: fixed;
+            bottom: 1vh;
+            left: 1vh;
+        }
+        #bottombutton:hover {
+            filter: $filter_bgd4;
+        }
+        #topbutton:hover {
+            filter: $filter_bgd4;
+        }
+        .license-link {
+            color: $txt2;
+        }
+        .license-link:hover {
+            color: $txt3;
+        }
+    }
+}

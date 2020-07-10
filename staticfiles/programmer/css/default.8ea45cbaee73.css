@@ -1,0 +1,47 @@
+body {
+  background-color: #2a3744; }
+  body header nav {
+    background-color: #53585f; }
+    body header nav .navbar-brand {
+      color: #dde0ff;
+      pointer-events: none;
+      cursor: default; }
+      body header nav .navbar-brand #logo {
+        filter: invert(22%) sepia(76%) saturate(914%) hue-rotate(310deg) brightness(94%) contrast(94%); }
+    body header nav .nav-link {
+      color: #dde0ff; }
+    body header nav .nav-link:hover {
+      color: #888a91; }
+    body header nav .navbar-toggler-icon {
+      height: 5vh;
+      width: 5vh; }
+  body main h1 {
+    color: #912f40; }
+  body main p {
+    color: #dde0ff; }
+  body footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+    body footer hr {
+      border-color: #53585f; }
+    body footer #bottombutton {
+      filter: invert(22%) sepia(76%) saturate(914%) hue-rotate(310deg) brightness(94%) contrast(94%);
+      position: fixed;
+      bottom: 1vh;
+      right: 1vh; }
+    body footer #topbutton {
+      filter: invert(22%) sepia(76%) saturate(914%) hue-rotate(310deg) brightness(94%) contrast(94%);
+      position: fixed;
+      bottom: 1vh;
+      left: 1vh; }
+    body footer #bottombutton:hover {
+      filter: invert(17%) sepia(17%) saturate(4667%) hue-rotate(316deg) brightness(96%) contrast(91%); }
+    body footer #topbutton:hover {
+      filter: invert(17%) sepia(17%) saturate(4667%) hue-rotate(316deg) brightness(96%) contrast(91%); }
+    body footer .license-link {
+      color: #912f40; }
+    body footer .license-link:hover {
+      color: #702632; }
+
+/*# sourceMappingURL=default.css.map */
